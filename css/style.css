@@ -1,0 +1,34 @@
+body {
+    border: none;
+    outline: none;
+}
+
+.nav a {
+    margin: 0 5px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.63);
+}
+
+.breeds {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+
+.breed-img {
+    padding: 20px 0;
+}
+.breed-img img {
+    width: 40%;
+    height: 200px;
+    object-fit: contain;
+}
